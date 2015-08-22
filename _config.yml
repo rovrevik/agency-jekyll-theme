@@ -19,7 +19,16 @@ header-action: Tell Me More
 header-action-id: Services
 header-background-image: ../img/header-bg.jpg
 
+sections-enabled:
+  - services
+# TODO - portfolio
+  - about
+  - team
+  - clients
+  - contact
+
 services-name: Services
+services-navigation: yes
 services-heading: Services
 services-subheading: Lorem ipsum dolor sit amet consectetur.
 
@@ -35,10 +44,12 @@ services:
     fa-class: fa-lock
 
 portfolio-name: Portfolio
+portfolio-navigation: yes
 portfolio-heading: Portfolio
 portfolio-subheading: Lorem ipsum dolor sit amet consectetur.
 
 about-name: About
+about-navigation: yes
 about-heading: About
 about-subheading: Lorem ipsum dolor sit amet consectetur.
 
@@ -61,6 +72,7 @@ timeline:
     pic: img/about/4.jpg
 
 team-name: Team
+team-navigation: yes
 team-heading: Our Amazing Team
 team-subheading: Lorem ipsum dolor sit amet consectetur.
 team-footer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
@@ -101,6 +113,7 @@ people:
       url: #
 
 clients-name: Clients
+clients-navigation: no
 clients:
   - logo: img/logos/envato.jpg
   - logo: img/logos/designmodo.jpg
@@ -108,6 +121,7 @@ clients:
   - logo: img/logos/creative-market.jpg
 
 contact-name: Contact
+contact-navigation: yes
 contact-heading: Contact Us
 contact-subheading: Lorem ipsum dolor sit amet consectetur.
 contact-background-image: ../img/map-image.png

@@ -18,21 +18,15 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#{{ site.services-name | downcase }}">{{ site.services-name }}</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#{{ site.portfolio-name | downcase }}">{{ site.portfolio-name }}</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#{{ site.about-name | downcase }}">{{ site.about-name }}</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#{{ site.team-name | downcase }}">{{ site.team-name }}</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#{{ site.contact-name | downcase }}">{{ site.contact-name }}</a>
-                    </li>
+                    {% for section in site.sections-enabled %}
+                        {% capture sectionnavigation %}{{section}}-navigation{% endcapture %}
+                        {% if site[sectionnavigation] %}
+                            {% capture sectionname %}{{section}}-name{% endcapture %}
+                            <li>
+                                <a class="page-scroll" href="#{{ site[sectionname] | downcase }}">{{ site[sectionname] }}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
