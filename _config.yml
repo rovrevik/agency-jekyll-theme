@@ -16,6 +16,9 @@ color:
 header:
   background-image: ../img/header-bg.jpg
 
+portfolio-heading: Portfolio
+portfolio-subheading: Lorem ipsum dolor sit amet consectetur.
+
 team-heading: Our Amazing Team
 team-subheading: Lorem ipsum dolor sit amet consectetur.
 team-footer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
