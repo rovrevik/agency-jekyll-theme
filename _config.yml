@@ -13,7 +13,7 @@ color:
   secondary-dark: 333
 
 header:
-  background-image: ../img/header-bg.jpg
+  background-image: ../img/header-bg-football.jpg
 
 # Team names, titles and social links
 people:
