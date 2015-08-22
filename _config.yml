@@ -55,6 +55,12 @@ people:
     - title: google-plus
       url: #
 
+clients:
+  - logo: img/logos/envato.jpg
+  - logo: img/logos/designmodo.jpg
+  - logo: img/logos/themeforest.jpg
+  - logo: img/logos/creative-market.jpg
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
