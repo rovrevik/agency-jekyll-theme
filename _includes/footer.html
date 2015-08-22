@@ -14,10 +14,10 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
+                        {% for link in site.quick-links %}
+                        <li><a href="#{{link.url}}">{{link.title}}</a>
                         </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
+                        {% endfor %}
                     </ul>
                 </div>
             </div>

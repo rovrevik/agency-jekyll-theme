@@ -115,6 +115,12 @@ social:
   - title: github
     url: http://github.com/jekyll
 
+quick-links:
+  - title: Privacy Policy
+    url: #
+  - title: Terms of Use
+    url: #
+
 # Postal address (add as many lines as necessary)
 address:
   - line: 3481 Melrose Place
