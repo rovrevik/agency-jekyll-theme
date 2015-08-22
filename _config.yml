@@ -99,6 +99,9 @@ clients:
   - logo: img/logos/themeforest.jpg
   - logo: img/logos/creative-market.jpg
 
+contact-heading: Contact Us
+contact-subheading: Lorem ipsum dolor sit amet consectetur.
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
