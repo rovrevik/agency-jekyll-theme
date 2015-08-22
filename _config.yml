@@ -13,8 +13,7 @@ color:
   secondary: fec503  
   secondary-dark: 333
 
-header:
-  background-image: ../img/header-bg.jpg
+header-background-image: ../img/header-bg.jpg
 
 services-heading: Services
 services-subheading: Lorem ipsum dolor sit amet consectetur.
@@ -101,6 +100,7 @@ clients:
 
 contact-heading: Contact Us
 contact-subheading: Lorem ipsum dolor sit amet consectetur.
+contact-background-image: ../img/map-image.png
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
