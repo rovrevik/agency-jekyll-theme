@@ -17,38 +17,56 @@ header:
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+#- name: Kay Garland
+#  pic: 1
+#  position: Lead Designer
+#  social:
+#    - title: twitter
+#      url: #
+#    - title: facebook
+#      url: #
+#    - title: stack-overflow
+#      url: #
+#
+#- name: Larry Parker
+#  pic: 2
+#  position: Lead Marketer
+#  social:
+#    - title: twitter
+#      url: #
+#    - title: facebook
+#      url: #
+#    - title: linkedin
+#      url: #
+#
+#- name: Diana Petersen
+#  pic: 3
+#  position: Lead Developer
+#  social:
+#    - title: twitter
+#      url: #
+#    - title: facebook
+#      url: #
+#    - title: google-plus
+#      url: #
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
+- name: Jim Williams
+  pic: jwilliams
+  position: Co-Founder & Cheif Executive Officer
   social:
     - title: twitter
-      url: #
-    - title: facebook
-      url: #
+      url: http://twitter.com/ # TODO
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in # TODO
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
+- name: Ryan Ovrevik
+  pic: rovrevik
+  position: Co-Founder & President
   social:
     - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+      url: http://twitter.com/rovrevik
+    - title: linkedin
+      url: https://www.linkedin.com/in/rovrevik
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
