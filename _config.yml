@@ -1,10 +1,20 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+#url: https://y7kim.github.io
+#baseurl: /agency-jekyll-theme/
+url: "http://www.fieldthings.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+#title: Awesome Title
+#email: your-email@domain.com
+#description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Fieldthings
+email: info@fieldthings.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+#twitter_username: fieldthings
+#github_username:  fieldthings
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -70,21 +80,31 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+#  - title: twitter
+#    url: http://twitter.com/jekyllrb
+#  - title: facebook
+#    url:
+#  - title: stack-overflow
+#    url: http://stackoverflow.com/questions/tagged/jekyll
+#  - title: bitbucket
+#    url: http://bitbucket.org/jekyll
+#  - title: github
+#    url: http://github.com/jekyll
+
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: http://twitter.com/fieldthings
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+    url: http://www.facebook.com/Fieldthings
+  - title: bitbucket
+    url: http://bitbucket.org/fieldthings
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/fieldthings
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+#  - line: 3481 Melrose Place
+#  - line: Beverly Hills, CA 90210
+  - line: Alpharetta, Georgia 30004
 
 # Build settings
 markdown: kramdown
