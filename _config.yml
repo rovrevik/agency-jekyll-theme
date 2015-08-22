@@ -16,6 +16,10 @@ color:
 header:
   background-image: ../img/header-bg.jpg
 
+team-title: Our Amazing Team
+team-subtitle: Lorem ipsum dolor sit amet consectetur.
+team-footer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+
 # Team names, titles and social links
 people:
 - name: Kay Garland
