@@ -13,8 +13,13 @@ color:
   secondary: fec503  
   secondary-dark: 333
 
+header-heading: Welcome To Our Studio!
+header-subheading: It's Nice To Meet You
+header-action: Tell Me More
+header-action-id: Services
 header-background-image: ../img/header-bg.jpg
 
+services-name: Services
 services-heading: Services
 services-subheading: Lorem ipsum dolor sit amet consectetur.
 
@@ -29,9 +34,11 @@ services:
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
     fa-class: fa-lock
 
+portfolio-name: Portfolio
 portfolio-heading: Portfolio
 portfolio-subheading: Lorem ipsum dolor sit amet consectetur.
 
+about-name: About
 about-heading: About
 about-subheading: Lorem ipsum dolor sit amet consectetur.
 
@@ -53,6 +60,7 @@ timeline:
     description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
     pic: img/about/4.jpg
 
+team-name: Team
 team-heading: Our Amazing Team
 team-subheading: Lorem ipsum dolor sit amet consectetur.
 team-footer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
@@ -92,12 +100,14 @@ people:
     - title: google-plus
       url: #
 
+clients-name: Clients
 clients:
   - logo: img/logos/envato.jpg
   - logo: img/logos/designmodo.jpg
   - logo: img/logos/themeforest.jpg
   - logo: img/logos/creative-market.jpg
 
+contact-name: Contact
 contact-heading: Contact Us
 contact-subheading: Lorem ipsum dolor sit amet consectetur.
 contact-background-image: ../img/map-image.png

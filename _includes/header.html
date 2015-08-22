@@ -19,19 +19,19 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#{{ site.services-name | downcase }}">{{ site.services-name }}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#{{ site.portfolio-name | downcase }}">{{ site.portfolio-name }}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#{{ site.about-name | downcase }}">{{ site.about-name }}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll" href="#{{ site.team-name | downcase }}">{{ site.team-name }}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#{{ site.contact-name | downcase }}">{{ site.contact-name }}</a>
                     </li>
                 </ul>
             </div>
@@ -44,9 +44,9 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="intro-lead-in">{{ site.header-heading }}</div>
+                <div class="intro-heading">{{ site.header-subheading }}</div>
+                <a href="#{{ site.header-action-id | downcase }}" class="page-scroll btn btn-xl">{{ site.header-action }}</a>
             </div>
         </div>
     </header>
