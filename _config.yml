@@ -13,11 +13,12 @@ color:
   secondary: fec503  
   secondary-dark: 333
 
-header-heading: Welcome To Our Studio!
-header-subheading: It's Nice To Meet You
-header-action: Tell Me More
-header-action-id: Services
-header-background-image: ../img/header-bg.jpg
+header:
+  heading: Welcome To Our Studio!
+  subheading: It's Nice To Meet You
+  action: Tell Me More
+  action-id: Services
+  background-image: ../img/header-bg.jpg
 
 sections-enabled:
   - services
@@ -27,55 +28,57 @@ sections-enabled:
   - clients
   - contact
 
-services-name: Services
-services-navigation: yes
-services-heading: Services
-services-subheading: Lorem ipsum dolor sit amet consectetur.
-
 services:
-  - name: E-Commerce
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-    fa-class: fa-shopping-cart
-  - name: Responsive Design
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-    fa-class: fa-laptop
-  - name: Web Security
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-    fa-class: fa-lock
+  name: Services
+  navigation: yes
+  heading: Services
+  subheading: Lorem ipsum dolor sit amet consectetur.
+  services:
+    - name: E-Commerce
+      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      fa-class: fa-shopping-cart
+    - name: Responsive Design
+      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      fa-class: fa-laptop
+    - name: Web Security
+      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+      fa-class: fa-lock
 
-portfolio-name: Portfolio
-portfolio-navigation: yes
-portfolio-heading: Portfolio
-portfolio-subheading: Lorem ipsum dolor sit amet consectetur.
+portfolio:
+  name: Portfolio
+  navigation: yes
+  heading: Portfolio
+  subheading: Lorem ipsum dolor sit amet consectetur.
 
-about-name: About
-about-navigation: yes
-about-heading: About
-about-subheading: Lorem ipsum dolor sit amet consectetur.
+about:
+  name: About
+  navigation: yes
+  heading: About
+  subheading: Lorem ipsum dolor sit amet consectetur.
+  timeline:
+    - name: Our Humble Beginnings
+      when: 2009-2011
+      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+      pic: img/about/1.jpg
+    - name: An Agency is Born
+      whwn: March 2011
+      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+      pic: img/about/2.jpg
+    - name: Transition to Full Service
+      whwn: December 2012
+      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+      pic: img/about/3.jpg
+    - name: Phase Two Expansion
+      when: July 2014
+      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+      pic: img/about/4.jpg
 
-timeline:
-  - name: Our Humble Beginnings
-    when: 2009-2011
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-    pic: img/about/1.jpg
-  - name: An Agency is Born
-    whwn: March 2011
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-    pic: img/about/2.jpg
-  - name: Transition to Full Service
-    whwn: December 2012
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-    pic: img/about/3.jpg
-  - name: Phase Two Expansion
-    when: July 2014
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-    pic: img/about/4.jpg
-
-team-name: Team
-team-navigation: yes
-team-heading: Our Amazing Team
-team-subheading: Lorem ipsum dolor sit amet consectetur.
-team-footer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+team:
+  name: Team
+  navigation: yes
+  heading: Our Amazing Team
+  subheading: Lorem ipsum dolor sit amet consectetur.
+  footer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
 
 # Team names, titles and social links
 people:
@@ -112,19 +115,21 @@ people:
     - title: google-plus
       url: #
 
-clients-name: Clients
-clients-navigation: no
 clients:
-  - logo: img/logos/envato.jpg
-  - logo: img/logos/designmodo.jpg
-  - logo: img/logos/themeforest.jpg
-  - logo: img/logos/creative-market.jpg
+  name: Clients
+  navigation: no
+  clients:
+    - logo: img/logos/envato.jpg
+    - logo: img/logos/designmodo.jpg
+    - logo: img/logos/themeforest.jpg
+    - logo: img/logos/creative-market.jpg
 
-contact-name: Contact
-contact-navigation: yes
-contact-heading: Contact Us
-contact-subheading: Lorem ipsum dolor sit amet consectetur.
-contact-background-image: ../img/map-image.png
+contact:
+  name: Contact
+  navigation: yes
+  heading: Contact Us
+  contact-subheading: Lorem ipsum dolor sit amet consectetur.
+  background-image: ../img/map-image.png
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

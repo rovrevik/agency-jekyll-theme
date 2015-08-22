@@ -1,9 +1,9 @@
 <!-- Clients Aside -->
-    <aside id="{{ site.clients-name | downcase }}" class="clients">
+    <aside id="{{ site.clients.name | downcase }}" class="clients">
         <div class="container">
             <div class="row">
-                {% assign colum-class-suffix = 12 | divided_by: site.clients.size | ceil %}
-                {% for client in site.clients %}
+                {% assign colum-class-suffix = 12 | divided_by: site.clients.clients.size | ceil %}
+                {% for client in site.clients.clients %}
                 <div class="col-md-{{colum-class-suffix}}">
                     <a href="#">
                         <img src="{{client.logo}}" class="img-responsive img-centered" alt="">
