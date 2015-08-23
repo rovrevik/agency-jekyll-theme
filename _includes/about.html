@@ -12,7 +12,7 @@
                     <ul class="timeline">
                         {% assign colum-class-suffix = 12 | divided_by: site.about.timeline.size | ceil %}
                         {% for event in site.about.timeline %}
-                        <li {% cycle '', 'timeline-inverted' %}> TODO flip-flop
+                        <li {% cycle '', 'timeline-inverted' %}>
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="{{event.pic}}" alt="">
                             </div>
