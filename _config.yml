@@ -33,7 +33,7 @@ services:
   navigation: yes
   heading: Services
   subheading: Lorem ipsum dolor sit amet consectetur.
-  services:
+  list:
     - name: E-Commerce
       description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
       fa-class: fa-shopping-cart
@@ -80,45 +80,45 @@ team:
   subheading: Lorem ipsum dolor sit amet consectetur.
   footer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
 
-# Team names, titles and social links
-people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+  # Team names, titles and social links
+  people:
+  - name: Kay Garland
+    pic: 1
+    position: Lead Designer
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: stack-overflow
+        url: #
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+  - name: Larry Parker
+    pic: 2
+    position: Lead Marketer
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: linkedin
+        url: #
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+  - name: Diana Petersen
+    pic: 3
+    position: Lead Developer
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: google-plus
+        url: #
 
 clients:
   name: Clients
   navigation: no
-  clients:
+  list:
     - logo: img/logos/envato.jpg
     - logo: img/logos/designmodo.jpg
     - logo: img/logos/themeforest.jpg

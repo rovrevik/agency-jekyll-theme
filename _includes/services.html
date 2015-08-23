@@ -8,8 +8,8 @@
                 </div>
             </div>
             <div class="row text-center">
-                {% assign colum-class-suffix = 12 | divided_by: site.services.services.size | ceil %}
-                {% for service in site.services.services %}
+                {% assign colum-class-suffix = 12 | divided_by: site.services.list.size | ceil %}
+                {% for service in site.services.list %}
                 <div class="col-md-{{colum-class-suffix}}">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
