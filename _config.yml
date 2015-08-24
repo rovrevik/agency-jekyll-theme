@@ -24,12 +24,13 @@ markdown: kramdown
 permalink: pretty
 
 sections-enabled:
-  - services
-  - portfolio_grid
-  - about
+  - solution
+#  - services
+#  - portfolio_grid
+#  - about
   - team
-  - clients
-  - contact
+#  - clients
+#  - contact
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -41,10 +42,13 @@ header:
   heading: High School and Middle School<br> Football is changing.
   subheading: More efficient, connected and engaged than ever before.
   action: Tell Me More
-  action-id: Services
+  action-id: solution
 #  background-image: ../img/header-bg.jpg
   background-image: ../img/header-bg-football.jpg
 
+solution:
+  name: Solution
+  navigation: yes
 
 services:
   name: Services
