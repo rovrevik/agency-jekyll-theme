@@ -1,4 +1,5 @@
-# Fieldthings web site
+Fieldthings web site
+====================
 
 ## Getting started
 Jekyll is used by [GitHub Pages](https://pages.github.com/). The dependencies used for Jekyll at GitHub are specified [here](https://pages.github.com/versions/).
@@ -30,4 +31,9 @@ $ rvm --default use system
 # set a specific ruby version as the default in new shells
 $ rvm --default use 2.1
 $ rvm gemset list_all
-```
+
+Uses the [Agency Theme for Jekyll](https://rovrevik.github.io/agency-jekyll-theme)
+==================================================================================
+
+Agency theme based on: [Agency bootstrap theme](http://startbootstrap.com/templates/agency/)
+Initially forked from: [Agency Theme for Jekyll](https://github.com/y7kim/agency-jekyll-theme)
