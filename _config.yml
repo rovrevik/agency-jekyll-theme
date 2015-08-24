@@ -38,7 +38,7 @@ color:
   secondary-dark: 333
 
 header:
-  heading: We are changing<br> High School and Middle School Football.
+  heading: High School and Middle School<br> Football is changing.
   subheading: More efficient, connected and engaged than ever before.
   action: Tell Me More
   action-id: Services
@@ -94,9 +94,9 @@ about:
 team:
   name: Team
   navigation: yes
-  heading: Our Amazing Team
-  subheading: Lorem ipsum dolor sit amet consectetur.
-  footer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+  heading: The Team
+  subheading: We are changing High School and Middle School Football.
+  footer: We benefit from decades of experience ranging from mobile and web applications development, distributed video transcoding, Internet marketing, Department of Defense contracting, hardware and video games.
   # Team names, titles and social links
   people:
 #    - name: Kay Garland
