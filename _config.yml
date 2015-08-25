@@ -26,7 +26,7 @@ header:
   subheading: It's Nice To Meet You
   action: Tell Me More
   action-id: Services
-  background-image: ../img/header-bg.jpg
+  background-image: /img/header-bg.jpg
 
 services:
   name: Services
@@ -129,7 +129,7 @@ contact:
   navigation: yes
   heading: Contact Us
   contact-subheading: Lorem ipsum dolor sit amet consectetur.
-  background-image: ../img/map-image.png
+  background-image: /img/map-image.png
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
