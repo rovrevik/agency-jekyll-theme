@@ -18,10 +18,10 @@
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
-                {% for section in site.data.sections.sections-enabled %}
-                    {% if site.data.sections[section].navigation %}
+                {% for section in site.data.sections %}
+                    {% if section[1].navigation %}
                         <li>
-                            <a class="page-scroll" href="#{{ site.data.sections[section].name | downcase }}">{{ site.data.sections[section].name }}</a>
+                            <a class="page-scroll" href="#{{ section[1].name | downcase }}">{{ section[1].name }}</a>
                         </li>
                     {% endif %}
                 {% endfor %}

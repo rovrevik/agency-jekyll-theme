@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
   <body id="page-top" class="index">
-
   {% include header.html %}
 
-  {% for section in site.data.sections.sections-enabled %}
-    {% include {{section}}.html %}
+  {% for section in site.data.sections %}
+    {% if section[1].enabled %}
+    {% assign file_name = section[0] %}
+    {% include {{file_name}}.html %}
+    {% endif %}
   {% endfor %}
 
   {% include footer.html %}
-  {% include modals.html %}
   {% include js.html %}
-
   </body>
-
 </html>

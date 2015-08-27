@@ -1,31 +1,27 @@
-sections-enabled:
-  - services
-  - portfolio_grid
-  - about
-  - team
-  - clients
-  - contact
-
 services:
   name: Services
+  enabled: yes
   navigation: yes
   heading: Services
   subheading: Lorem ipsum dolor sit amet consectetur.
 
 portfolio_grid:
   name: Portfolio
+  enabled: yes
   navigation: yes
   heading: Portfolio
   subheading: Lorem ipsum dolor sit amet consectetur.
 
 about:
   name: About
+  enabled: yes
   navigation: yes
   heading: About
   subheading: Lorem ipsum dolor sit amet consectetur.
 
 team:
   name: Team
+  enabled: yes
   navigation: yes
   heading: Our Amazing Team
   subheading: Lorem ipsum dolor sit amet consectetur.
@@ -33,6 +29,7 @@ team:
 
 clients:
   name: Clients
+  enabled: yes
   navigation: no
   list:
     - logo: img/logos/envato.jpg
@@ -42,6 +39,7 @@ clients:
 
 contact:
   name: Contact
+  enabled: yes
   navigation: yes
   heading: Contact Us
   contact-subheading: Lorem ipsum dolor sit amet consectetur.
