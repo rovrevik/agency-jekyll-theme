@@ -11,14 +11,7 @@ collections:
   timeline:
   team-members:
   portfolio:
-
-sections-enabled:
-  - services
-  - portfolio_grid
-  - about
-  - team
-  - clients
-  - contact
+  services:
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -32,57 +25,6 @@ header:
   action: Tell Me More
   action-id: Services
   background-image: /img/header-bg.jpg
-
-services:
-  name: Services
-  navigation: yes
-  heading: Services
-  subheading: Lorem ipsum dolor sit amet consectetur.
-  list:
-    - name: E-Commerce
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-      fa-class: fa-shopping-cart
-    - name: Responsive Design
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-      fa-class: fa-laptop
-    - name: Web Security
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-      fa-class: fa-lock
-
-portfolio_grid:
-  name: Portfolio
-  navigation: yes
-  heading: Portfolio
-  subheading: Lorem ipsum dolor sit amet consectetur.
-
-about:
-  name: About
-  navigation: yes
-  heading: About
-  subheading: Lorem ipsum dolor sit amet consectetur.
-
-team:
-  name: Team
-  navigation: yes
-  heading: Our Amazing Team
-  subheading: Lorem ipsum dolor sit amet consectetur.
-  footer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
-
-clients:
-  name: Clients
-  navigation: no
-  list:
-    - logo: img/logos/envato.jpg
-    - logo: img/logos/designmodo.jpg
-    - logo: img/logos/themeforest.jpg
-    - logo: img/logos/creative-market.jpg
-
-contact:
-  name: Contact
-  navigation: yes
-  heading: Contact Us
-  contact-subheading: Lorem ipsum dolor sit amet consectetur.
-  background-image: /img/map-image.png
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

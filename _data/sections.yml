@@ -1,0 +1,48 @@
+sections-enabled:
+  - services
+  - portfolio_grid
+  - about
+  - team
+  - clients
+  - contact
+
+services:
+  name: Services
+  navigation: yes
+  heading: Services
+  subheading: Lorem ipsum dolor sit amet consectetur.
+
+portfolio_grid:
+  name: Portfolio
+  navigation: yes
+  heading: Portfolio
+  subheading: Lorem ipsum dolor sit amet consectetur.
+
+about:
+  name: About
+  navigation: yes
+  heading: About
+  subheading: Lorem ipsum dolor sit amet consectetur.
+
+team:
+  name: Team
+  navigation: yes
+  heading: Our Amazing Team
+  subheading: Lorem ipsum dolor sit amet consectetur.
+  footer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+
+clients:
+  name: Clients
+  navigation: no
+  list:
+    - logo: img/logos/envato.jpg
+    - logo: img/logos/designmodo.jpg
+    - logo: img/logos/themeforest.jpg
+    - logo: img/logos/creative-market.jpg
+
+contact:
+  name: Contact
+  navigation: yes
+  heading: Contact Us
+  contact-subheading: Lorem ipsum dolor sit amet consectetur.
+  background-image: /img/map-image.png

@@ -1,24 +1,24 @@
 <!-- Services Section -->
-    <section id="{{ site.services.name | downcase }}">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{ site.services.heading }}</h2>
-                    <h3 class="section-subheading text-muted">{{ site.services.subheading }}</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                {% assign colum-class-suffix = 12 | divided_by: site.services.list.size | ceil %}
-                {% for service in site.services.list %}
-                <div class="col-md-{{colum-class-suffix}}">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa {{service.fa-class}} fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">{{service.name}}</h4>
-                    <p class="text-muted">{{service.description}}</p>
-                </div>
-                {% endfor %}
+<section id="{{ site.data.sections.services.name | downcase }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ site.data.sections.services.heading }}</h2>
+                <h3 class="section-subheading text-muted">{{ site.data.sections.services.subheading }}</h3>
             </div>
         </div>
-    </section>
+        <div class="row text-center">
+            {% assign colum-class-suffix = 12 | divided_by: site.services.size | ceil %}
+            {% for service in site.services %}
+            <div class="col-md-{{colum-class-suffix}}">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa {{service.fa-class}} fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="service-heading">{{service.name}}</h4>
+                <p class="text-muted">{{service.description}}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
