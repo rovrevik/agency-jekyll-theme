@@ -5,14 +5,14 @@ services:
   heading: Services
   subheading: Lorem ipsum dolor sit amet consectetur.
 
-portfolio_grid:
+portfolio:
   name: Portfolio
   enabled: yes
   navigation: yes
   heading: Portfolio
   subheading: Lorem ipsum dolor sit amet consectetur.
 
-about:
+timeline:
   name: About
   enabled: yes
   navigation: yes

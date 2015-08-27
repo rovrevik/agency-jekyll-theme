@@ -1,17 +1,17 @@
 <!-- About Section -->
-<section id="{{ site.data.sections.about.name | downcase }}">
+<section id="{{ section.name | downcase }}">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">{{ site.data.sections.about.heading }}</h2>
-                <h3 class="section-subheading text-muted">{{ site.data.sections.about.subheading }}.</h3>
+                <h2 class="section-heading">{{ section.heading }}</h2>
+                <h3 class="section-subheading text-muted">{{ section.subheading }}.</h3>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12">
                 <ul class="timeline">
-                    {% assign colum-class-suffix = 12 | divided_by: site.timeline.size | ceil %}
-                    {% for event in site.timeline %}
+                    {% assign column-class-suffix = 12 | divided_by: collection.size | ceil %}
+                    {% for event in collection %}
                     <li {% cycle '', 'timeline-inverted' %}>
                         <div class="timeline-image">
                             <img class="img-circle img-responsive" src="{{event.pic}}" alt="">

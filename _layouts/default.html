@@ -4,10 +4,12 @@
   <body id="page-top" class="index">
   {% include header.html %}
 
-  {% for section in site.data.sections %}
-    {% if section[1].enabled %}
-    {% assign file_name = section[0] %}
-    {% include {{file_name}}.html %}
+  {% for section_kv in site.data.sections %}
+    {% assign name = section_kv[0] %}
+    {% assign section = section_kv[1] %}
+    {% if section.enabled %}
+    {% assign collection = site[name] %}
+    {% include {{name}}.html variable-section=section variable-collection=collection %}
     {% endif %}
   {% endfor %}
 

@@ -1,16 +1,16 @@
 <!-- Team Section -->
-<section id="{{ site.data.sections.team.name | downcase }}" class="bg-light-gray">
+<section id="{{ section.name | downcase }}" class="bg-light-gray">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">{{ site.data.sections.team.heading }}</h2>
-                <h3 class="section-subheading text-muted">{{ site.data.sections.team.subheading }}</h3>
+                <h2 class="section-heading">{{ section.heading }}</h2>
+                <h3 class="section-subheading text-muted">{{ section.subheading }}</h3>
             </div>
         </div>
         <div class="row">
-            {% assign colum-class-suffix = 12 | divided_by: site.team.size | ceil %}
-            {% for member in site.team %}
-            <div class="col-sm-{{colum-class-suffix}}">
+            {% assign column-class-suffix = 12 | divided_by: collection.size | ceil %}
+            {% for member in collection %}
+            <div class="col-sm-{{column-class-suffix}}">
                 <div class="team-member">
                     <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
                     <h4>{{ member.name }}</h4>
