@@ -8,8 +8,8 @@
             </div>
         </div>
         <div class="row">
-            {% assign colum-class-suffix = 12 | divided_by: site.team-members.size | ceil %}
-            {% for member in site.team-members %}
+            {% assign colum-class-suffix = 12 | divided_by: site.team.size | ceil %}
+            {% for member in site.team %}
             <div class="col-sm-{{colum-class-suffix}}">
                 <div class="team-member">
                     <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
