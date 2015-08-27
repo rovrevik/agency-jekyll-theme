@@ -10,6 +10,7 @@ copyright-year: 2015
 collections:
   timeline:
   team-members:
+  portfolio:
 
 sections-enabled:
   - services
