@@ -7,6 +7,10 @@ email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 copyright-year: 2015
 
+collections:
+  timeline:
+  team-members:
+
 sections-enabled:
   - services
   - portfolio_grid
@@ -55,23 +59,6 @@ about:
   navigation: yes
   heading: About
   subheading: Lorem ipsum dolor sit amet consectetur.
-  timeline:
-    - name: Our Humble Beginnings
-      when: 2009-2011
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-      pic: img/about/1.jpg
-    - name: An Agency is Born
-      whwn: March 2011
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-      pic: img/about/2.jpg
-    - name: Transition to Full Service
-      whwn: December 2012
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-      pic: img/about/3.jpg
-    - name: Phase Two Expansion
-      when: July 2014
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-      pic: img/about/4.jpg
 
 team:
   name: Team
@@ -79,41 +66,6 @@ team:
   heading: Our Amazing Team
   subheading: Lorem ipsum dolor sit amet consectetur.
   footer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
-
-  # Team names, titles and social links
-  people:
-  - name: Kay Garland
-    pic: 1
-    position: Lead Designer
-    social:
-      - title: twitter
-        url: #
-      - title: facebook
-        url: #
-      - title: stack-overflow
-        url: #
-
-  - name: Larry Parker
-    pic: 2
-    position: Lead Marketer
-    social:
-      - title: twitter
-        url: #
-      - title: facebook
-        url: #
-      - title: linkedin
-        url: #
-
-  - name: Diana Petersen
-    pic: 3
-    position: Lead Developer
-    social:
-      - title: twitter
-        url: #
-      - title: facebook
-        url: #
-      - title: google-plus
-        url: #
 
 clients:
   name: Clients
