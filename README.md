@@ -26,7 +26,7 @@ Images are in '/img/about/'
 
 # Demo
 
-View this jekyll theme in action [here](https://rovrevik.github.io/agency-jekyll-theme)
+View this jekyll theme in action [here](http://rovrevik.github.io/agency-jekyll-theme-redux)
 
 ----
 
