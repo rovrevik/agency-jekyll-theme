@@ -1,0 +1,50 @@
+action: Tell Me More
+action-id: Services
+
+services:
+  name: Services
+  enabled: yes
+  navigation: yes
+  heading: Services
+  subheading: Lorem ipsum dolor sit amet consectetur.
+
+portfolio:
+  name: Portfolio
+  enabled: yes
+  navigation: yes
+  heading: Portfolio
+  subheading: Lorem ipsum dolor sit amet consectetur.
+
+timeline:
+  name: About
+  enabled: yes
+  navigation: yes
+  heading: About
+  subheading: Lorem ipsum dolor sit amet consectetur.
+
+team:
+  name: Team
+  enabled: yes
+  navigation: yes
+  heading: Our Amazing Team
+  subheading: Lorem ipsum dolor sit amet consectetur.
+  footer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+
+clients:
+  name: Clients
+  enabled: yes
+  navigation: no
+  list:
+    - logo: img/logos/envato.jpg
+    - logo: img/logos/designmodo.jpg
+    - logo: img/logos/themeforest.jpg
+    - logo: img/logos/creative-market.jpg
+
+contact:
+  name: Contact
+  enabled: yes
+  navigation: yes
+  heading: Contact Us
+  contact-subheading: Lorem ipsum dolor sit amet consectetur.
+  background-image: /img/map-image.png
+  to: yourname@yourdomain.com
