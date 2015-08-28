@@ -1,3 +1,6 @@
+action: Tell Me More
+action-id: Services
+
 services:
   name: Services
   enabled: yes
