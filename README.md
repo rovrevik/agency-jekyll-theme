@@ -39,23 +39,19 @@ Jekyll is used by [GitHub Pages](https://pages.github.com/). The dependencies us
 Uses the [Agency Theme for Jekyll](https://rovrevik.github.io/agency-jekyll-theme-redux)
 ========================================================================================
 
-Agency theme based on: [Agency bootstrap theme](http://startbootstrap.com/templates/agency/)
-Initially forked from: [Agency Theme for Jekyll](https://github.com/y7kim/agency-jekyll-theme)
+- Agency theme based on: [Agency bootstrap theme](http://startbootstrap.com/templates/agency/)
+- Initially forked from: [Agency Theme for Jekyll](https://github.com/y7kim/agency-jekyll-theme)
 
 # How to use
 
-###Portfolio 
+### Portfolio 
+- Portfolio projects are in '/_posts'
+- Images are in '/img/portfolio'
 
-Portfolio projects are in '/_posts'
+### About
+- Images are in '/img/about/'
 
-Images are in '/img/portfolio'
-
-###About
-
-Images are in '/img/about/'
-
-###Team
-
+### Team
 - Team members and info are in '_config.yml'
 - Default team images
     - Image Directory: '/img/team/'
@@ -63,8 +59,7 @@ Images are in '/img/about/'
     - Image DPI: 72 pixels/inch
 
 # Demo
-
-View this jekyll theme in action [here](http://rovrevik.github.io/agency-jekyll-theme-redux)
+- View this jekyll theme in action [here](http://rovrevik.github.io/agency-jekyll-theme-redux)
 
 For more details, read [documentation](http://jekyllrb.com/)
 
