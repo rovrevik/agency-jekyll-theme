@@ -1,5 +1,6 @@
 ---
 name: Jim Williams
+enabled: yes
 pic: jwilliams
 position: Co-Founder & Chief Executive Officer
 social:

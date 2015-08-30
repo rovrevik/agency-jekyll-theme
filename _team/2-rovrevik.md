@@ -1,5 +1,6 @@
 ---
 name: Ryan Ovrevik
+enabled: yes
 pic: rovrevik
 position: Co-Founder & President
 social:
