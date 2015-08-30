@@ -1,6 +1,6 @@
 ---
 name: Larry Parker
-enabled: yes
+enabled: no
 pic: 2
 position: Lead Marketer
 social:

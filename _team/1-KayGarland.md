@@ -1,6 +1,6 @@
 ---
 name: Kay Garland
-enabled: yes
+enabled: no
 pic: 1
 position: Lead Designer
 social:
