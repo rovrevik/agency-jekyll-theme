@@ -1,5 +1,6 @@
 ---
 name: Diana Petersen
+enabled: yes
 pic: 3
 position: Lead Developer
 social:

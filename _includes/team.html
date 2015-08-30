@@ -8,8 +8,13 @@
             </div>
         </div>
         <div class="row">
-            {% assign column-class-suffix = 12 | divided_by: collection.size | ceil %}
+            {% assign member_count = 0 %}
             {% for member in collection %}
+                {% if member.enabled %}{% assign member_count = member_count | plus: 1 %}{% endif %}
+            {% endfor %}
+            {% assign column-class-suffix = 12 | divided_by: member_count | ceil %}
+            {% for member in collection %}
+            {% if member.enabled %}
             <div class="col-sm-{{column-class-suffix}}">
                 <div class="team-member">
                     <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
@@ -22,6 +27,7 @@
                     </ul>
                 </div>
             </div>
+            {% endif %}
             {% endfor %}
         </div>
         <div class="row">
