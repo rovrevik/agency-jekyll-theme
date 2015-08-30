@@ -42,23 +42,23 @@ Uses the [Agency Theme for Jekyll](https://rovrevik.github.io/agency-jekyll-them
 - Agency theme based on: [Agency bootstrap theme](http://startbootstrap.com/templates/agency/)
 - Initially forked from: [Agency Theme for Jekyll](https://github.com/y7kim/agency-jekyll-theme)
 
-# How to use
+## How to use
 
 ### Portfolio 
-- Portfolio projects are in '/_posts'
+- Portfolio projects are in the '/_portfolio' directory.
 - Images are in '/img/portfolio'
 
 ### About
 - Images are in '/img/about/'
 
 ### Team
-- Team members and info are in '_config.yml'
+- Team members and info are in the '_team' directory.
 - Default team images
     - Image Directory: '/img/team/'
     - Images Size: 225 × 225 pixels
     - Image DPI: 72 pixels/inch
 
-# Demo
+## Demo
 - View this jekyll theme in action [here](http://rovrevik.github.io/agency-jekyll-theme-redux)
 
 For more details, read [documentation](http://jekyllrb.com/)
