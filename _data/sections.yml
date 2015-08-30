@@ -1,23 +1,30 @@
 action: Tell Me More
-action-id: Services
+action-id: solution
+
+solution:
+  name: Solution
+  enabled: yes
+  navigation: yes
+  heading: The Solution
+  subheading: Fieldthings is applying the Internet of Things, Multimedia Sensors and Devices to give our customers an advantage on and off the playing field.
 
 services:
   name: Services
-  enabled: yes
+  enabled: no
   navigation: yes
   heading: Services
   subheading: Lorem ipsum dolor sit amet consectetur.
 
 portfolio:
   name: Portfolio
-  enabled: yes
+  enabled: no
   navigation: yes
   heading: Portfolio
   subheading: Lorem ipsum dolor sit amet consectetur.
 
 timeline:
   name: About
-  enabled: yes
+  enabled: no
   navigation: yes
   heading: About
   subheading: Lorem ipsum dolor sit amet consectetur.
@@ -35,7 +42,7 @@ team:
 
 clients:
   name: Clients
-  enabled: yes
+  enabled: no
   navigation: no
   list:
     - logo: img/logos/envato.jpg
@@ -45,7 +52,7 @@ clients:
 
 contact:
   name: Contact
-  enabled: yes
+  enabled: no
   navigation: yes
   heading: Contact Us
   contact-subheading: Lorem ipsum dolor sit amet consectetur.
