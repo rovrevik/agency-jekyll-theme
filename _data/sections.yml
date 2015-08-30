@@ -1,0 +1,60 @@
+action: Tell Me More
+action-id: solution
+
+solution:
+  name: Solution
+  enabled: yes
+  navigation: yes
+  heading: The Solution
+  subheading: Fieldthings is applying the Internet of Things, Multimedia Sensors and Devices to give our customers an advantage on and off the playing field.
+
+services:
+  name: Services
+  enabled: no
+  navigation: yes
+  heading: Services
+  subheading: Lorem ipsum dolor sit amet consectetur.
+
+portfolio:
+  name: Portfolio
+  enabled: no
+  navigation: yes
+  heading: Portfolio
+  subheading: Lorem ipsum dolor sit amet consectetur.
+
+timeline:
+  name: About
+  enabled: no
+  navigation: yes
+  heading: About
+  subheading: Lorem ipsum dolor sit amet consectetur.
+
+team:
+  name: Team
+  enabled: yes
+  navigation: yes
+#  heading: Our Amazing Team
+  heading: The Team
+#  subheading: Lorem ipsum dolor sit amet consectetur.
+  subheading: We are changing High School and Middle School Football.
+#  footer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+  footer: We benefit from decades of experience ranging from mobile and web applications development, distributed video transcoding, Internet marketing, Department of Defense contracting, hardware and video games.
+
+clients:
+  name: Clients
+  enabled: no
+  navigation: no
+  list:
+    - logo: img/logos/envato.jpg
+    - logo: img/logos/designmodo.jpg
+    - logo: img/logos/themeforest.jpg
+    - logo: img/logos/creative-market.jpg
+
+contact:
+  name: Contact
+  enabled: no
+  navigation: yes
+  heading: Contact Us
+  contact-subheading: Lorem ipsum dolor sit amet consectetur.
+  background-image: /img/map-image.png
+  to: yourname@yourdomain.com
