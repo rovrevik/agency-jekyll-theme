@@ -1,0 +1,16 @@
+{
+  "name": "agency-jekyll-theme-redux",
+  "version": "0.0.5",
+  "homepage": "https://github.com/rovrevik/agency-jekyll-theme-redux",
+  "authors": [
+    "Ryan Ovrevik <rovrevik@ovrevik.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
