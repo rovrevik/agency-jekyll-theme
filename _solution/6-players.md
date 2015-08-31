@@ -1,4 +1,5 @@
 ---
-scenario: [practice, evnet, review]
+name: Players
+scenario: [practice, event, review]
 customer: [players]
 ---

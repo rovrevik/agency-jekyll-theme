@@ -1,4 +1,6 @@
 ---
+name: 
+scenario-context: At Events
 scenario: [event]
-customer: [couches, parents, players]
+customer: [coaches, parents, players]
 ---

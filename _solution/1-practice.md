@@ -1,5 +1,7 @@
 ---
+name: 
+scenario-context: During Practice
 scenario: [practice]
-customer: [couches, parents, players]
+customer: [coaches, parents, players]
 ---
 

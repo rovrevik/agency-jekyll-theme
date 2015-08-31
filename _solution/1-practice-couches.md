@@ -1,4 +1,5 @@
 --
+name: 
 scenario: [practice]
-customer: [couches]
+customer: [coaches]
 --
