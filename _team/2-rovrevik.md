@@ -7,5 +7,5 @@ social:
   - title: twitter
     url: http://twitter.com/rovrevik
   - title: linkedin
-    url: https://www.linkedin.com/in/rovrevik
+    url: http://www.linkedin.com/in/rovrevik
 ---

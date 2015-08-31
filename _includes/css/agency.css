@@ -307,6 +307,21 @@ header .intro-text .intro-heading {
     font-style: italic;
 }
 
+#solution-carousel > a.left.carousel-control {
+    background-image: none
+}
+
+#solution-carousel > a.right.carousel-control {
+    background-image: none
+}
+
+@media(min-width:768px) {
+    #solution-carousel {
+        min-height: 250px;
+        max-height: 250px;
+    }
+}
+
 @media(min-width:768px) {
     #page-top > nav > div {
         border-radius: 5px;
