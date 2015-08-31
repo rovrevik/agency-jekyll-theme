@@ -1,6 +1,6 @@
 {
   "name": "agency-jekyll-theme-redux",
-  "version": "1.0.0",
+  "version": "0.0.5",
   "description": "Agency Jekyll Theme Redux =========================",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/rovrevik/agency-jekyll-theme-redux.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rovrevik/agency-jekyll-theme-redux/issues"
   },
