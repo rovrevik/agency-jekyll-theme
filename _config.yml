@@ -17,6 +17,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 copyright-year: 2015
 
 collections:
+  solution:
   timeline:
   team:
   portfolio:

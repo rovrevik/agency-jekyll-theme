@@ -1,0 +1,4 @@
+---
+scenario: [event]
+customer: [couches]
+---
