@@ -16,3 +16,5 @@ collections:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+exclude: [Gemfile.*, README.md, package.json, bower.json, bower_components]
