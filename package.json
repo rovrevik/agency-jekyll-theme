@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rovrevik/agency-jekyll-theme-redux/issues"
   },
-  "homepage": "https://github.com/rovrevik/agency-jekyll-theme-redux#readme"
+  "homepage": "https://github.com/rovrevik/agency-jekyll-theme-redux#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
 }

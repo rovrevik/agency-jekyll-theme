@@ -17,4 +17,5 @@ collections:
 markdown: kramdown
 permalink: pretty
 
-exclude: [Gemfile.*, README.md, package.json, bower.json, bower_components]
+# TODO is required that the LICENSE file be in the root?
+exclude: [README.md, Gemfile.*, package.json, bower.json, bower_components, gulpfile.js]
