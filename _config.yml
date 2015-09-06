@@ -1,10 +1,10 @@
-url: https://rovrevik.github.io
-baseurl: /agency-jekyll-theme-redux
-
 # Site settings
 title: Awesome Title
 email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+url: https://rovrevik.github.io # the base hostname & protocol for your site
+baseurl: /agency-jekyll-theme-redux
+
 copyright-year: 2015
 
 collections:
@@ -16,3 +16,6 @@ collections:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# TODO is required that the LICENSE file be in the root?
+exclude: [README.md, Gemfile.*, package.json, bower.json, bower_components, gulpfile.js]

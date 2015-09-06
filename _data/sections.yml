@@ -45,6 +45,6 @@ contact:
   enabled: yes
   navigation: yes
   heading: Contact Us
-  contact-subheading: Lorem ipsum dolor sit amet consectetur.
+  subheading: Lorem ipsum dolor sit amet consectetur.
   background-image: /img/map-image.png
   to: yourname@yourdomain.com
