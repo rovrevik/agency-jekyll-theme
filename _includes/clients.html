@@ -4,7 +4,7 @@
         <div class="row">
             {% assign column-class-suffix = 12 | divided_by: section.list.size | ceil %}
             {% for client in section.list %}
-            <div class="col-md-{{column-class-suffix}}">
+            <div class="col-md-{{column-class-suffix}} col-sm-6">
                 <a href="#">
                     <img src="{{client.logo}}" class="img-responsive img-centered" alt="">
                 </a>
