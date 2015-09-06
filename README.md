@@ -59,3 +59,9 @@ Jekyll is used by [GitHub Pages](https://pages.github.com/). The dependencies us
 - View this jekyll theme in action [here](http://rovrevik.github.io/agency-jekyll-theme-redux)
 
 For more details, read [documentation](http://jekyllrb.com/)
+
+## TODO
+- border highlight on contact form active input controls
+- spacing on contact input forms
+
+
