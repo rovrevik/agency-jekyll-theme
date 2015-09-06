@@ -1,2 +1,135 @@
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
+
+/*= overrides to upstream stylesheet =================================================================================*/
+
+body {
+    color: #{{ site.data.global.color.secondary-dark }};
+    background-color: #ffffff;
+}
+
+.text-primary {
+    color: #{{ site.data.global.color.primary }};
+}
+
+a {
+    color: #{{ site.data.global.color.primary }};
+}
+
+a.active {
+    color: #{{ site.data.global.color.secondary }};
+}
+
+.btn-primary {
+    border-color: #{{ site.data.global.color.primary }};
+    background-color: #{{ site.data.global.color.primary }};
+}
+
+.open .dropdown-toggle.btn-primary {
+    border-color: #{{ site.data.global.color.primary }};
+    background-color: #{{ site.data.global.color.secondary }};
+}
+
+fieldset[disabled] .btn-primary.active {
+    border-color: #{{ site.data.global.color.primary }};
+    background-color: #{{ site.data.global.color.primary }};
+}
+
+.btn-primary .badge {
+    color: #{{ site.data.global.color.primary }};
+}
+
+.btn-xl {
+    border-color: #{{ site.data.global.color.primary }};
+    background-color: #{{ site.data.global.color.primary }};
+}
+
+.open .dropdown-toggle.btn-xl {
+    border-color: #{{ site.data.global.color.primary }};
+    background-color: #{{ site.data.global.color.secondary }};
+}
+
+fieldset[disabled] .btn-xl.active {
+    border-color: #{{ site.data.global.color.primary }};
+    background-color: #{{ site.data.global.color.primary }};
+}
+
+.btn-xl .badge {
+    color: #{{ site.data.global.color.primary }};
+}
+
+.navbar-default .navbar-brand {
+    color: #{{ site.data.global.color.primary }};
+}
+
+.navbar-default .navbar-brand.active {
+    color: #{{ site.data.global.color.secondary }};
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #{{ site.data.global.color.primary }};
+    background-color: #{{ site.data.global.color.primary }};
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: #{{ site.data.global.color.primary }};
+}
+
+.navbar-default .nav li a:focus {
+    color: #{{ site.data.global.color.primary }};
+}
+
+.navbar-default .navbar-nav>.active>a {
+    background-color: #{{ site.data.global.color.primary }};
+}
+
+.navbar-default .navbar-nav>.active>a:focus {
+    background-color: #{{ site.data.global.color.secondary }};
+}
+
+header {
+    background-image: url({{ site.url }}{{ site.baseurl }}{{ site.data.global.header.background-image }});
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
+    background: rgba({{ site.data.global.color.primary | hex_to_rgb | join: ',' }}, .9);
+}
+
+.timeline>li .timeline-image {
+    background-color: #{{ site.data.global.color.primary }};
+}
+
+section#contact {
+    background-image: url({{ site.url }}{{ site.baseurl }}{{ site.data.sections.contact.background-image }});
+}
+
+section#contact .form-control:focus {
+    border-color: #{{ site.data.global.color.primary }};
+}
+
+ul.social-buttons li a:active {
+    background-color: #{{ site.data.global.color.primary }};
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+
+
+::-moz-selection {
+    background: #{{ site.data.global.color.primary }};
+}
+
+::selection {
+    background: #{{ site.data.global.color.primary }};
+}
+
+body {
+    webkit-tap-highlight-color: #{{ site.data.global.color.primary }};
+}
+
+section#contact .form-group textarea.form-control {
+    height: 233px;
+}
