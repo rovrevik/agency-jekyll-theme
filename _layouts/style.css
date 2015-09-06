@@ -1,11 +1,7 @@
-{% include css/bootstrap.min.css %}
-{% include css/agency.css %}
-
 /*= overrides to upstream stylesheet =================================================================================*/
 
 body {
     color: #{{ site.data.global.color.secondary-dark }};
-    background-color: #ffffff;
 }
 
 .text-primary {
@@ -112,11 +108,6 @@ ul.social-buttons li a:active {
     background-color: #{{ site.data.global.color.primary }};
 }
 
-.portfolio-modal .modal-backdrop {
-    display: none;
-    opacity: 0;
-}
-
 ::-moz-selection {
     background: #{{ site.data.global.color.primary }};
 }
@@ -127,12 +118,4 @@ ul.social-buttons li a:active {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.global.color.primary }};
-}
-
-.modal-content {
-    background-color: #ffffff;
-}
-
-section#contact .form-group textarea.form-control {
-    height: 233px;
 }
