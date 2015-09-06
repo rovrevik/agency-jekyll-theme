@@ -12,7 +12,7 @@
                 <ul class="timeline">
                     {% assign column-class-suffix = 12 | divided_by: collection.size | ceil %}
                     {% for event in collection %}
-                    <li {% cycle '', 'timeline-inverted' %}>
+                    <li class="{% cycle '', 'timeline-inverted' %}">
                         <div class="timeline-image">
                             <img class="img-circle img-responsive" src="{{event.pic}}" alt="">
                         </div>
@@ -27,7 +27,7 @@
                         </div>
                     </li>
                     {% endfor %}
-                    <li class="timeline-inverted">
+                    <li>
                         <div class="timeline-image">
                             <h4>Be Part
                                 <br>Of Our
