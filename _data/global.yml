@@ -4,6 +4,10 @@ color:
   secondary: fec503
   secondary-dark: 333
 
+brand: Start Bootstrap
+copyright-name: Your Website
+copyright-year: 2015
+
 header:
   heading: Welcome To Our Studio!
   subheading: It's Nice To Meet You

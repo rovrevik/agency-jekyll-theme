@@ -61,7 +61,7 @@ Jekyll is used by [GitHub Pages](https://pages.github.com/). The dependencies us
 For more details, read [documentation](http://jekyllrb.com/)
 
 ## TODO
-- border highlight on contact form active input controls
-- spacing on contact input forms
-
-
+- make better use of cdns for dependencies
+- concatenate js and css
+- upstream still has glyph icon fonts from bootstrap
+- conform to the spirit and approach of a default generated jekyll project better

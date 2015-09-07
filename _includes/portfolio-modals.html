@@ -1,4 +1,5 @@
 <!-- Portfolio Modals -->
+<!-- Use the modals below to showcase details about your portfolio projects! -->
 {% for item in collection %}
 <div class="portfolio-modal modal fade" id="portfolioModal{{ item.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
@@ -12,25 +13,26 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
+                        <!-- Project Details Go Here -->
                         <h2>{{ item.title }}</h2>
-                        <hr class="star-primary">
-                        <img src="img/portfolio/{{ item.img }}" class="img-responsive img-centered" alt="{{ item.alt }}">
+                        <p class="item-intro text-muted">{{ item.subtitle }}</p>
+                        <img class="img-responsive img-centered" src="img/portfolio/{{ item.img }}" alt="{{ item.alt }}">
                         <p>{{ item.description }}</p>
-                        <ul class="list-inline item-details">
-                            <li>Client:
-                                <strong><a href="http://startbootstrap.com">{{ item.client }}</a>
-                                </strong>
-                            </li>
-                            <li>Date:
-                                <strong><a href="http://startbootstrap.com">{{ item.project-date }}</a>
-                                </strong>
-                            </li>
-                            <li>Service:
-                                <strong><a href="http://startbootstrap.com">{{ item.category }}</a>
-                                </strong>
-                            </li>
+                        <p>{{ item.description2 }}</p>
+                        {% if item.project-date or item.client %}
+                        <ul class="list-inline">
+                            {% if item.project-date %}
+                            <li>Date: {{ item.project-date }}</li>
+                            {% endif %}
+                            {% if item.client %}
+                            <li>Client: {{ item.client }}</li>
+                            {% endif %}
+                            {% if item.category %}
+                            <li>Category: {{ item.category }}</li>
+                            {% endif %}
                         </ul>
-                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        {% endif %}
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                     </div>
                 </div>
             </div>
