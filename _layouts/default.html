@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html>
-  {% include head.html %}
-  <body id="page-top" class="index">
-  {% include header.html %}
+<html lang="en">
+    {% include head.html %}
+    <body id="page-top" class="index">
+        {% include header.html %}
 
-  {% for section_kv in site.data.sections %}
-    {% assign name = section_kv[0] %}
-    {% assign section = section_kv[1] %}
-    {% if section.enabled %}
-    {% assign collection = site[name] %}
-    {% include {{name}}.html variable-section=section variable-collection=collection %}
-    {% endif %}
-  {% endfor %}
+        {% for section_kv in site.data.sections %}
+            {% assign name = section_kv[0] %}
+            {% assign section = section_kv[1] %}
+            {% if section.enabled %}
+            {% assign collection = site[name] %}
+            {% include {{name}}.html variable-section=section variable-collection=collection %}
+            {% endif %}
+        {% endfor %}
 
-  {% include footer.html %}
-  {% include js.html %}
-  </body>
+        {% include footer.html %}
+        {% include js.html %}
+    </body>
 </html>

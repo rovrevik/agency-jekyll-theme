@@ -15,12 +15,11 @@
   ],
   "dependencies": {
     "AnimatedHeader": "codrops/AnimatedHeader",
-    "bootstrap": "3.2.0",
-    "bootswatch": "3.2.0",
-    "font-awesome": "4.1.0",
-    "jqBootstrapValidation": "1.3.6",
-    "jquery": "1.11.0",
-    "jquery-easing-original": "1.3.2",
-    "startbootstrap-agency": "1.0.4"
+    "bootstrap": "3.3.5",
+    "font-awesome": "4.2.0",
+    "jqBootstrapValidation": "1.3.7",
+    "jquery-easing-original": "1.3.0",
+    "jquery": "1.11.1",
+    "startbootstrap-agency": "IronSummitMedia/startbootstrap-agency#69817e9"
   }
 }
