@@ -15,11 +15,11 @@
                     <div class="modal-body">
                         <!-- Project Details Go Here -->
                         <h2>{{ item.title }}</h2>
-                        <p class="item-intro text-muted">{{ item.description }}</p>
+                        <p class="item-intro text-muted">{{ item.subtitle }}</p>
                         <img class="img-responsive img-centered" src="img/portfolio/{{ item.img }}" alt="{{ item.alt }}">
-                        <p>{{ item.long-description1 }}</p>
-                        <p>{{ item.long-description2 }}</p>
-                        {% if item.project-date or item.client or item.category %}
+                        <p>{{ item.description }}</p>
+                        <p>{{ item.description2 }}</p>
+                        {% if item.project-date or item.client %}
                         <ul class="list-inline">
                             {% if item.project-date %}
                             <li>Date: {{ item.project-date }}</li>
