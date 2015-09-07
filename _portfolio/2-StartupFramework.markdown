@@ -3,7 +3,6 @@ title: Startup Framework
 subtitle: Lorem ipsum dolor sit amet consectetur.
 layout: default
 modal-id: 5
-date: 2014-07-14
 img: startup-framework-preview.png
 thumbnail: startup-framework.png
 alt: image-alt

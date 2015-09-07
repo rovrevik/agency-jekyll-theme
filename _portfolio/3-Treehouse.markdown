@@ -3,7 +3,6 @@ title: Treehouse
 subtitle: Lorem ipsum dolor sit amet consectetur.
 layout: default
 modal-id: 4
-date: 2014-07-15
 img: treehouse-preview.png
 thumbnail: treehouse.png
 alt: image-alt

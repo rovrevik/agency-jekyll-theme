@@ -3,7 +3,6 @@ title: Escape
 subtitle: Lorem ipsum dolor sit amet consectetur.
 layout: default
 modal-id: 2
-date: 2014-07-17
 img: escape-preview.png
 thumbnail: escape.png
 alt: image-alt

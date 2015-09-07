@@ -3,7 +3,6 @@ title: Round Icons
 subtitle: Lorem ipsum dolor sit amet consectetur.
 layout: default
 modal-id: 6
-date: 2014-07-15
 img: roundicons-free.png
 thumbnail: roundicons.png
 alt: image-alt

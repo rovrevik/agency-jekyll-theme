@@ -3,7 +3,6 @@ title: Dreams
 subtitle: Lorem ipsum dolor sit amet consectetur.
 layout: default
 modal-id: 1
-date: 2014-07-18
 img: dreams-preview.png
 thumbnail: dreams.png
 alt: image-alt

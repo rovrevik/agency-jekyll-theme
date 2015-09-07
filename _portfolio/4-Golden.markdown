@@ -3,7 +3,6 @@ title: Golden
 subtitle: Lorem ipsum dolor sit amet consectetur.
 layout: default
 modal-id: 3
-date: 2014-07-16
 img: golden-preview.png
 thumbnail: golden.png
 alt: image-alt
