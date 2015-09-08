@@ -19,11 +19,11 @@
                     <a href="#page-top"></a>
                 </li>
                 {% for section in site.data.sections %}
-                    {% if section[1].enabled and section[1].navigation %}
-                        <li>
-                            <a class="page-scroll" href="#{{ section[1].name | downcase }}">{{ section[1].name }}</a>
-                        </li>
-                    {% endif %}
+                {% if section[1].enabled and section[1].navigation %}
+                <li>
+                    <a class="page-scroll" href="#{{ section[1].name | downcase }}">{{ section[1].name }}</a>
+                </li>
+                {% endif %}
                 {% endfor %}
             </ul>
         </div>
