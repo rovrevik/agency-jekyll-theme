@@ -61,6 +61,7 @@ Jekyll is used by [GitHub Pages](https://pages.github.com/). The dependencies us
 For more details, read [documentation](http://jekyllrb.com/)
 
 ## TODO
+- contact form validation isnt working well at all like upstream
 - make better use of cdns for dependencies
 - concatenate js and css
 - upstream still has glyph icon fonts from bootstrap
