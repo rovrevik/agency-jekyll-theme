@@ -92,7 +92,7 @@ It would be great the hook this mess into the GitHub Pages life-cycle. Until a w
 
 ## How to use
 
-### Portfolio
+### Services
 - Services are in the '/_services' directory.
 
 ### Portfolio
